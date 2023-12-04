@@ -1,0 +1,74 @@
+.home-img{
+    z-index: -1;
+    position: absolute;
+    top: 71px;
+    width: 100vw;
+    filter: blur(0px);
+}
+
+.home-imgcontainer{
+    height: 42vw;
+    max-height: 580px;
+    margin-bottom: 10px;
+}
+@media(max-width: 503.5px) {
+    .home-imgcontainer{
+        height: 45vw;
+    }
+}
+
+.home-imgtxt{
+    margin-top: 15vw;
+    filter: blur(0px);
+    font-family: 'Caveat', cursive;
+}
+@media(max-width: 503.5px) {
+    .home-imgtxt{
+        margin-top: 70px;
+        filter: blur(2px);
+    }
+}
+
+.home-imgdesc{
+    display: inline;
+}
+@media(max-width: 700px) {
+    .home-imgdesc{
+        display: none;
+    }
+}
+@media (pointer:coarse) {
+    .home-imgtitle{
+        font-size: 30px;
+    }
+}
+
+.home-breadtxt{
+    max-width: 40vw;
+}
+.x-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.square{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+
+    height: 240px;
+    width: 60vw;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.font-strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+.txt-darkgray{
+    color: rgb(71, 71, 71);
+}
+
+.font-handwritten{
+    font-family: 'Caveat', cursive;
+}

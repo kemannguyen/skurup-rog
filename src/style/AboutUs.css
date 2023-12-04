@@ -1,0 +1,25 @@
+.about-title{
+  margin-top: 150px;
+  white-space: nowrap;
+}
+
+.about-desc{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.contact-btn {
+  transform: scale(0.7);
+  max-height: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  min-width: 100px;
+  border-radius: 50% !important;
+}
+.contact-btn-fill {
+  max-height: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  min-width: 100px;
+  border-radius: 50% !important;
+}

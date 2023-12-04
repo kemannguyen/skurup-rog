@@ -1,0 +1,12 @@
+.footer-bg{
+  margin-top: 500px;
+  background-color: rgb(105, 159, 206);
+  height: auto;
+  color: white;
+  padding: 20px;
+}
+.footer-container{
+  padding: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}

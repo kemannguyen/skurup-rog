@@ -1,0 +1,120 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    min-height: 70px;
+    outline: 1px solid rgb(197, 197, 197);
+    z-index: 30;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.title{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    font-family: 'Caveat', cursive;
+}
+.navbtns{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.navbtn{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    font-family: 'Caveat', cursive;
+}
+.navbtn-active{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    font-family: 'Caveat', cursive;
+    text-decoration:underline;
+}
+.navbtn:hover{
+    cursor: pointer;
+    color: rgb(180, 180, 180);
+}
+.navbtn-active:hover{
+    cursor: pointer;
+    color: rgb(180, 180, 180);
+    
+}
+@media(max-width: 830px) {
+    .navbtn{
+        display: none;
+        font-size: 0px;
+    }
+    .navbtn-active{
+        display: none;
+        font-size: 0px;
+    }
+}
+
+@media(max-width: 500px) {
+    .title{
+        font-size: 26px;
+    }
+}
+
+.title:hover{
+    cursor: pointer;
+}
+@media (pointer:coarse) {
+    .title{
+        font-size: 20px;
+    }
+}
+
+.menu-btn{
+    visibility: hidden;
+    pointer-events: none;
+    max-width: 60px;
+    min-width: 60px;
+    max-height: 60px;
+    min-width: 60px;
+    z-index: 50;
+}
+
+.menu-btn:hover{
+    cursor: pointer;
+}
+@media(max-width: 830px) {
+    .menu-btn{
+        visibility: visible;
+        pointer-events:all;
+        background: transparent;
+        max-width: 60px;
+        min-width: 60px;
+        max-height: 60px;
+        min-width: 60px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: 5%;
+        z-index: 50;
+    }
+}
+.hide{
+    visibility: hidden;
+    position: fixed;
+    top: -20px;
+}
+.unhide{
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    transition: 400ms
+}
