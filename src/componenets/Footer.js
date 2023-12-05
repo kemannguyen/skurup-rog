@@ -20,6 +20,11 @@ const Footer = () => {
           <p className="mt-5">0728605436</p>
         </div>
       </div>
+      <div>
+        <p className="mt-5 text-center">
+          webplats skapad av <span className="font-strong">Keman Nguyen</span>
+        </p>
+      </div>
     </div>
   );
 };

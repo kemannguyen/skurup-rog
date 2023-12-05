@@ -4,28 +4,26 @@ import "../style/Home.css";
 const Home = () => {
   return (
     <div>
-      <img
-        className="home-img"
-        src="https://tecdn.b-cdn.net/img/new/slides/041.webp"
-        alt=""
-      />
-      <div className="home-imgtxt">
-        <div className="bg-gray-50 flex items-center bg-opacity-0">
-          <section className="w-full bg-cover bg-center py-6 home-imgcontainer">
-            <div className="container mx-auto text-center text-white">
-              <h1 className="text-6xl font-medium mt-10 mb-6 home-imgtitle">
-                Smak från landet
-              </h1>
-              <div className="home-imgdesc">
-                <p className="text-2xl mb-12">
-                  För oss som vill njuta av vardagen
-                </p>
+      <div>
+        <div className="home-imgtxt">
+          <div className="bg-gray-50 flex items-center bg-opacity-0">
+            <section className="w-full bg-cover bg-center py-6 home-imgcontainer">
+              <div className="container mx-auto text-center text-white">
+                <h1 className="mt-10 mb-6 home-imgtitle">Smak från landet</h1>
+                <div className="home-imgdesc">
+                  <p className="mb-12">För oss som vill njuta av vardagen</p>
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </div>
         </div>
+        <img
+          className="home-img"
+          src="https://tecdn.b-cdn.net/img/new/slides/041.webp"
+          alt=""
+        />
       </div>
-      <div className=" container text-center x-center">
+      <div className="container text-center x-center seperate">
         <p className="text-4xl mb-0 font-strong txt-darkgray">
           VÄLKOMMEN TILL SKURUP RESTAURANG & GRILL
         </p>

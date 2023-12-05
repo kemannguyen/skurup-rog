@@ -25,17 +25,21 @@
 @media(max-width: 503.5px) {
     .home-imgtxt{
         margin-top: 70px;
-        filter: blur(2px);
     }
 }
 
 .home-imgdesc{
     display: inline;
+    font-size: 2vw;
 }
+
 @media(max-width: 700px) {
     .home-imgdesc{
         display: none;
     }
+}
+.home-imgtitle{
+    font-size: 5vw;
 }
 @media (pointer:coarse) {
     .home-imgtitle{
@@ -43,6 +47,14 @@
     }
 }
 
+.seperate{
+    margin-top: 10vw;
+}
+@media (min-width: 1981px) {
+    .seperate{
+        margin-top: 20vw;
+    }
+}
 .home-breadtxt{
     max-width: 40vw;
 }
