@@ -153,7 +153,7 @@ const Header = () => {
   return (
     <div className="header">
       <span className="title" onClick={TillHem}>
-        Skurup Restaurang & Grill + {pathname}
+        Skurup Restaurang & Grill
       </span>
       <div className="navbtns">
         {homebtn}
