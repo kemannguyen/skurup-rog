@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../style/Header.css";
 import { useNavigate } from "react-router-dom";
 import icon from "../images/menu-icon1.png";
@@ -6,35 +6,54 @@ import xicon from "../images/x-icon1.png";
 import NavigationLayer from "./NavigationLayer";
 
 const Header = () => {
+  var pathname = window.location.pathname;
+
   const [menu, setMenu] = useState(false);
   const openMenu = () => setMenu(!menu);
   const [tabindex, setindex] = useState(0);
+
+  useEffect(() => {
+    switch (pathname) {
+      case "/":
+        setindex(0);
+        break;
+      case "/meny":
+        setindex(1);
+        break;
+      case "/om-oss":
+        setindex(2);
+        break;
+      case "/galleri":
+        setindex(3);
+        break;
+      case "/kontakta-oss":
+        setindex(4);
+        break;
+      default:
+        break;
+    }
+  }, [pathname]);
 
   const navigate = useNavigate();
   const TillHem = () => {
     window.scrollTo(0, 0);
     navigate("/");
-    setindex(0);
   };
   const TillMeny = () => {
     window.scrollTo(0, 0);
     navigate("/meny");
-    setindex(1);
   };
   const TillOmOss = () => {
     window.scrollTo(0, 0);
     navigate("/om-oss");
-    setindex(2);
   };
   const TillGalleri = () => {
     window.scrollTo(0, 0);
     navigate("/galleri");
-    setindex(3);
   };
   const TillKontaktaOss = () => {
     window.scrollTo(0, 0);
     navigate("/kontakta-oss");
-    setindex(4);
   };
 
   const screenWidth = () => {
@@ -44,7 +63,7 @@ const Header = () => {
   };
 
   let homebtn;
-  if (tabindex == 0) {
+  if (tabindex === 0) {
     homebtn = (
       <span className="navbtn-active" onClick={TillHem}>
         {" "}
@@ -61,7 +80,7 @@ const Header = () => {
   }
 
   let menubtn;
-  if (tabindex == 1) {
+  if (tabindex === 1) {
     menubtn = (
       <span className="navbtn-active" onClick={TillMeny}>
         {" "}
@@ -78,7 +97,7 @@ const Header = () => {
   }
 
   let omossbtn;
-  if (tabindex == 2) {
+  if (tabindex === 2) {
     omossbtn = (
       <span className="navbtn-active" onClick={TillOmOss}>
         {" "}
@@ -94,7 +113,7 @@ const Header = () => {
     );
   }
   let galleribtn;
-  if (tabindex == 3) {
+  if (tabindex === 3) {
     galleribtn = (
       <span className="navbtn-active" onClick={TillGalleri}>
         {" "}
@@ -110,7 +129,7 @@ const Header = () => {
     );
   }
   let kontaktaossbtn;
-  if (tabindex == 4) {
+  if (tabindex === 4) {
     kontaktaossbtn = (
       <span className="navbtn-active" onClick={TillKontaktaOss}>
         {" "}
@@ -134,7 +153,7 @@ const Header = () => {
   return (
     <div className="header">
       <span className="title" onClick={TillHem}>
-        Skurup Restaurang & Grill
+        Skurup Restaurang & Grill + {pathname}
       </span>
       <div className="navbtns">
         {homebtn}
@@ -147,6 +166,7 @@ const Header = () => {
         src={menu ? xicon : icon}
         className="menu-btn"
         onClick={openMenu}
+        alt=""
       ></img>
       <div className={menu ? "unhide" : "hide"}>
         <NavigationLayer openMenu={setMenu} setIndex={setindex} />
