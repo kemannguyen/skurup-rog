@@ -5,8 +5,11 @@ import reportWebVitals from "./reportWebVitals";
 import Header from "./componenets/Header";
 import Home from "./componenets/Home";
 import AboutUs from "./componenets/AboutUs";
+import Menu from "./componenets/Menu";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./componenets/Footer";
+import Gallery from "./componenets/Gallery";
+import ContactUs from "./componenets/ContactUs";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,10 +18,10 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/meny" element={<Home />} />
+        <Route path="/meny" element={<Menu />} />
         <Route path="/om-oss" element={<AboutUs />} />
-        <Route path="/galleri" element={<AboutUs />} />
-        <Route path="/kontakta-oss" element={<AboutUs />} />
+        <Route path="/galleri" element={<Gallery />} />
+        <Route path="/kontakta-oss" element={<ContactUs />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -17,11 +17,11 @@ const Footer = () => {
         </div>
         <div>
           <p className="font-strong">TELEFON</p>
-          <p className="mt-5">0728605436</p>
+          <p className="mt-5">072-860 54 36</p>
         </div>
       </div>
       <div>
-        <p className="mt-5 text-center">
+        <p className="watermarktext mt-5 text-center">
           webplats skapad av <span className="font-strong">Keman Nguyen</span>
         </p>
       </div>

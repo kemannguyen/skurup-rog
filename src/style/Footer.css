@@ -16,3 +16,6 @@
   display: flex;
   justify-content: space-evenly;
 }
+.watermarktext{
+  font-size: 0.7vw !important;
+}

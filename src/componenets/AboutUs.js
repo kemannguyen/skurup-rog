@@ -24,6 +24,7 @@ const AboutUs = () => {
           nya klassiska husmansrätter dagligen tillsammans med ett utbud av
           snabbmat.
         </p>
+        <p className="text-4xl font-handwritten">Följ oss på</p>
         <button
           className="contact-btn relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-200 group-hover:to-blue-200 hover:text-white dark:text-white focus:ring- focus:outline-none focus:ring-cyan-200"
           onClick={() =>
