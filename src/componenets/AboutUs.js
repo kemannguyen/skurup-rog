@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../style/General.css";
 import "../style/AboutUs.css";
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const openLinkInNewTab = (url) => {
     try {
       const newTab = window.open(url, "_blank", "noopener,noreferrer");

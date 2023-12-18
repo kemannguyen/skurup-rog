@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Gallerylist from "./Gallerylist";
 
 const Gallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 mx-auto">

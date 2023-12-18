@@ -12,22 +12,27 @@ const Header = () => {
 
   const navigate = useNavigate();
   const TillHem = () => {
+    window.scrollTo(0, 0);
     navigate("/");
     setindex(0);
   };
   const TillMeny = () => {
+    window.scrollTo(0, 0);
     navigate("/meny");
     setindex(1);
   };
   const TillOmOss = () => {
+    window.scrollTo(0, 0);
     navigate("/om-oss");
     setindex(2);
   };
   const TillGalleri = () => {
+    window.scrollTo(0, 0);
     navigate("/galleri");
     setindex(3);
   };
   const TillKontaktaOss = () => {
+    window.scrollTo(0, 0);
     navigate("/kontakta-oss");
     setindex(4);
   };
@@ -144,7 +149,7 @@ const Header = () => {
         onClick={openMenu}
       ></img>
       <div className={menu ? "unhide" : "hide"}>
-        <NavigationLayer openMenu={setMenu} />
+        <NavigationLayer openMenu={setMenu} setIndex={setindex} />
       </div>
     </div>
   );
