@@ -3,8 +3,8 @@ import Menulist from "./Menulist";
 
 const Menu = () => {
   const [weekNumber, setWeekNumber] = useState();
-  const [firstweekdate, setfwd] = useState();
-  const [lastweekdate, setlwd] = useState();
+  const [firstweekdate, setfwd] = useState(0);
+  const [lastweekdate, setlwd] = useState(0);
   const [month, setMonth] = useState();
 
   useEffect(() => {
