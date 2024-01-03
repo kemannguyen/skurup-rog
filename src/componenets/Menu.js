@@ -12,25 +12,27 @@ const Menu = () => {
 
     //get week number
     let currentDate = new Date();
+    let dateFormat = new Intl.DateTimeFormat("sv-SE");
+
     let startDate = new Date(currentDate.getFullYear(), 0, 1);
     let days = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
     setWeekNumber(Math.ceil(days / 7));
 
     //get dates of mon and fri in the week
-    let curr = new Date(); // get current date
-    let first = curr.getDate() - curr.getDay(); // First day is the day of the month - the day of the week
+    let first = currentDate.getDate() - currentDate.getDay(); // First day is the day of the month - the day of the week
     let last = first + 6; // last day is the first day + 6
 
-    let firstdayofweek = new Date(curr.setDate(first + 1)).toUTCString();
-    let lastdayofweek = new Date(curr.setDate(last - 1)).toUTCString();
+    let firstdayofweek = new Date(currentDate.setDate(first + 1)).toString();
+    let lastdayofweek = new Date(currentDate.setDate(last - 2)).toString();
 
     let firstdaysplitted = firstdayofweek.split(" ");
-    setfwd(firstdaysplitted[1]);
+    setfwd(firstdaysplitted[2]);
 
     let lastdaysplitted = lastdayofweek.split(" ");
-    setlwd(lastdaysplitted[1]);
+    setlwd(lastdaysplitted[2]);
 
-    setMonth(curr.getMonth() + 1);
+    setMonth(currentDate.getMonth() + 1);
+    console.log(firstdayofweek + lastdayofweek);
   });
 
   return (
