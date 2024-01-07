@@ -16,7 +16,7 @@ const Menulist = () => {
         );
       })}
       <br></br>
-      <h1 className="text-2xl font-strong font-bold text-center">Meny</h1>
+      <h1 className="text-2xl font-strong font-bold text-center mt-20">Meny</h1>
       {MenuPermanentData.map((option) => {
         return (
           <Menulistitem

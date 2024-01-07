@@ -8,6 +8,13 @@
   padding-right: 20%;
 }
 
+.about-img{
+  z-index: -1;
+  position: absolute;
+  top:70px;
+  width: 100vw;
+  filter: blur(1.2px);
+}
 .contact-btn {
   transform: scale(0.7);
   max-height: 100px;

@@ -16,11 +16,28 @@ const AboutUs = () => {
 
   return (
     <div>
+      <div>
+        <div className="home-imgtxt">
+          <div className="bg-gray-50 flex items-center bg-opacity-0">
+            <section className="w-full bg-cover bg-center py-6 home-imgcontainer">
+              <div className="container mx-auto text-center text-white">
+                <h1 className="mt-10 mb-6 home-imgtitle font-strong">OM OSS</h1>
+                <div className="home-imgdesc">
+                  <p className="mb-12 text-3xl">
+                    Vi serverar svensk husmankost
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <img
+          className="about-img"
+          src="https://tecdn.b-cdn.net/img/new/slides/041.webp"
+          alt=""
+        />
+      </div>
       <div className="text-center">
-        <p className="text-4xl font-strong about-title">OM OSS</p>
-        <p className="mx-auto text-2xl mb-28 font-handwritten">
-          Vi serverar svensk husmankost
-        </p>
         <p className="text-m mb-32 mt-auto about-desc">
           I Skurup är gemenskap en viktig faktor som håller igång och livar upp
           vardagen. Därför föredrar vi att använda oss av så mycket råvaror från
