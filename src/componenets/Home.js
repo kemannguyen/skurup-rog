@@ -42,7 +42,25 @@ const Home = () => {
           ett utbud av snabbmat.
         </p>
       </div>
-      <div className="square text-center">
+      <div className="post justify-center">
+        <span className="post-title font-strong text-2xl">
+          Sensate Inlägget
+        </span>
+        <div className="flex flex-row card">
+          <div className="max-w-[200px]">
+            <img
+              className="responsive-img"
+              src="https://img.freepik.com/free-vector/golden-sparkling-2024-new-year-eve-lettering-background-design-vector_1017-46452.jpg?w=826&t=st=1704680330~exp=1704680930~hmac=ba705918707bf3ba17bced6a90c1518605690340a305de2f06aa47207b9e121b"
+            />
+          </div>
+          <div className=" max-w-[300px] p-5 font-handwritten">
+            <p>Gott nytt år och god fortsättning!</p>
+            <br></br>
+            <p>Må 2024 vara lika grym som förra året!</p>
+          </div>
+        </div>
+      </div>
+      <div className="square text-center mt-20">
         <p className="text-3xl mb-9 font-strong text-decoration-line: underline txt-darkgray">
           Öppettider
         </p>

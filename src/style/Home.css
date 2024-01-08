@@ -84,3 +84,31 @@
 .font-handwritten{
     font-family: 'Caveat', cursive;
 }
+
+.post{
+    background-color: rgb(37, 37, 37);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.card{
+    margin-top: 40px;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    width: 60vw;
+    height: 20vh;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.responsive-img{
+    width: 30vw;
+    height: 20vh;
+}
+.post-title{
+    position: absolute;
+    color: rgb(255, 255, 255);
+}

@@ -12,6 +12,7 @@ const Menulist = () => {
             day={option.day}
             dish1={option.dish1}
             dish2={option.dish2}
+            price={option.price}
           />
         );
       })}
