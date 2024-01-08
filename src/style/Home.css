@@ -101,12 +101,17 @@
     width: 60vw;
     height: 20vh;
     max-width: 500px;
+    min-height: 100px;
     margin-top: 50px;
 }
 
 .responsive-img{
     width: 30vw;
     height: 20vh;
+    min-height: 100px;
+}
+.responsive-text{
+    font-size: 2vh;
 }
 .post-title{
     position: absolute;
