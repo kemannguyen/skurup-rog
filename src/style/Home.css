@@ -101,6 +101,7 @@
     width: 60vw;
     height: 20vh;
     max-width: 500px;
+    min-width: 200px;
     min-height: 100px;
     margin-top: 50px;
 }
