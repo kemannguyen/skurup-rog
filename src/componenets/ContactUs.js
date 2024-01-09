@@ -36,10 +36,8 @@ const ContactUs = () => {
             />
           </div>
           <p className="text-2xl font-strong text-center mt-3">Adress:</p>
-          <p className="text-2xl font-strong text-center">Asklidenvägen 1</p>
-          <span className="text-2xl font-strong text-center">
-            274 37, Skurup
-          </span>
+          <p className="text-l font-strong text-center mt-1">Asklidenvägen 1</p>
+          <span className="text-l font-strong text-center">274 37, Skurup</span>
         </div>
         <div className="flex flex-col">
           <div className="flex justify-center">
@@ -55,7 +53,7 @@ const ContactUs = () => {
             />
           </div>
           <p className="text-2xl font-strong text-center mt-3">Facebook:</p>
-          <span className="text-2xl font-strong text-center">
+          <span className="text-l font-strong text-center mt-1">
             {" "}
             Skurup Restaurang& Grill
           </span>
@@ -65,7 +63,7 @@ const ContactUs = () => {
             <img src={phoneicon} className="contact-img" alt="" />
           </div>
           <p className="text-2xl font-strong text-center mt-3">Telefon:</p>
-          <span className="text-2xl font-strong text-center">
+          <span className="text-l font-strong text-center mt-1">
             {" "}
             072-860 54 36
           </span>
