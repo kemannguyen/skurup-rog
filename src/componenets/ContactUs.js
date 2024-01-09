@@ -1,11 +1,56 @@
 import React, { useEffect } from "react";
+import locicon from "../images/location-icon.png";
+import phoneicon from "../images/phone-icon.png";
+import "../style/ContactUs.css";
 
 const ContactUs = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }, []);
+
+  const openLinkInNewTab = (url) => {
+    try {
+      const newTab = window.open(url, "_blank", "noopener,noreferrer");
+      if (newTab) newTab.opener = null;
+    } catch (e) {}
+  };
+
   return (
-    <div className="mtg">Contact - info and btn to open location on maps</div>
+    <div>
+      <h1 className="text-4xl font-strong about-title text-center">
+        KONTAKTA OSS
+      </h1>
+      <div className="mt-28 flex justify-evenly p-10">
+        <div className="flex flex-col">
+          <div className="flex justify-center">
+            <img
+              src={locicon}
+              className="contact-img adress"
+              onClick={() =>
+                openLinkInNewTab(
+                  "https://www.google.com/maps/place/Asklidenv%C3%A4gen+1,+274+37+Skurup/@55.4934515,13.50497,17z/data=!3m1!4b1!4m6!3m5!1s0x46538199ab89fe27:0xd3e8938d77c65ad0!8m2!3d55.4934515!4d13.50497!16s%2Fg%2F11c1ktsk99?entry=ttu"
+                )
+              }
+            />
+          </div>
+          <p className="text-2xl font-strong text-center mt-3">Adress:</p>
+          <p className="text-2xl font-strong text-center">Asklidenvägen 1</p>
+          <span className="text-2xl font-strong text-center">
+            274 37, Skurup
+          </span>
+        </div>
+        <div className="flex flex-col">
+          <div className="flex justify-center">
+            <img src={phoneicon} className="contact-img" />
+          </div>
+          <p className="text-2xl font-strong text-center mt-3">Telefon:</p>
+          <span className="text-2xl font-strong text-center">
+            {" "}
+            072-860 54 36
+          </span>
+        </div>
+      </div>
+    </div>
   );
 };
 

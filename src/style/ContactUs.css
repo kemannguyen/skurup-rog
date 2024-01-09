@@ -1,0 +1,14 @@
+.contact-img{
+  max-width: 200px;
+  max-height: 200px;
+  border-style:solid;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 10px;
+  border-color: #000000;
+  opacity: 0.5;
+}
+
+.adress:hover{
+  cursor: pointer;
+}

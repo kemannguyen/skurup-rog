@@ -8,12 +8,22 @@
 }
 
 .btn-container{
-  margin-top: 10%;
+  margin-top: 25%;
   height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+@media (pointer:coarse) {
+  .btn-container{
+    margin-top: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .navmenu-btn{
   margin-left: auto;
   margin-right: auto;

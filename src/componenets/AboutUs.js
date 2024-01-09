@@ -5,7 +5,7 @@ import "../style/AboutUs.css";
 const AboutUs = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }, []);
 
   const openLinkInNewTab = (url) => {
     try {
@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
         <img
           className="about-img"
-          src="https://tecdn.b-cdn.net/img/new/slides/041.webp"
+          src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt=""
         />
       </div>
