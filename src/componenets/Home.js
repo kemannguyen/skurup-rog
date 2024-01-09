@@ -51,6 +51,7 @@ const Home = () => {
             <img
               className="responsive-img"
               src="https://img.freepik.com/free-vector/golden-sparkling-2024-new-year-eve-lettering-background-design-vector_1017-46452.jpg?w=826&t=st=1704680330~exp=1704680930~hmac=ba705918707bf3ba17bced6a90c1518605690340a305de2f06aa47207b9e121b"
+              alt=""
             />
           </div>
           <div className=" max-w-[300px] p-5 font-handwritten responsive-text">

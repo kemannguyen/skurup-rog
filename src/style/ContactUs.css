@@ -9,6 +9,6 @@
   opacity: 0.5;
 }
 
-.adress:hover{
+.clickable:hover{
   cursor: pointer;
 }
