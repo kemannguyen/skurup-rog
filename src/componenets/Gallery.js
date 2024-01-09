@@ -6,7 +6,7 @@ const Gallery = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="text-gray-600 body-font">
+    <section className="body-font">
       <div className="container px-5 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-4xl font-strong about-title">GALLERI</h1>
