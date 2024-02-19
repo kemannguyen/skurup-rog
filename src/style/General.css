@@ -15,3 +15,7 @@
   padding-right: 14vw;
   padding-left: 14vw;
 }
+.static-img{
+  min-width: 100%;
+  max-width: 100%;
+}

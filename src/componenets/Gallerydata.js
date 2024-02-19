@@ -15,4 +15,9 @@ export const GalleryData = [
     imgsrc: "https://tecdn.b-cdn.net/img/new/slides/041.webp",
     description: "Placeholder img for prod purpose",
   },
+  {
+    title: "Pokemon trainer app",
+    imgsrc: "https://i.imgur.com/tvHWjZO.png",
+    description: "",
+  },
 ];

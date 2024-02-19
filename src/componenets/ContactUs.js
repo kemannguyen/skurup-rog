@@ -21,9 +21,9 @@ const ContactUs = () => {
       <h1 className="text-4xl font-strong about-title text-center">
         KONTAKTA OSS
       </h1>
-      <div className="mt-28 flex justify-evenly p-10">
+      <div className="mt-28 contact-layout">
         <div className="flex flex-col">
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-10">
             <img
               src={locicon}
               className="contact-img clickable"
@@ -40,7 +40,7 @@ const ContactUs = () => {
           <span className="text-l font-strong text-center">274 37, Skurup</span>
         </div>
         <div className="flex flex-col">
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-10">
             <img
               src={fbicon}
               className="contact-img clickable"
@@ -55,11 +55,11 @@ const ContactUs = () => {
           <p className="text-2xl font-strong text-center mt-3">Facebook:</p>
           <span className="text-l font-strong text-center mt-1">
             {" "}
-            Skurup Restaurang& Grill
+            Skurup Restaurang & Grill
           </span>
         </div>
         <div className="flex flex-col">
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-10">
             <img src={phoneicon} className="contact-img" alt="" />
           </div>
           <p className="text-2xl font-strong text-center mt-3">Telefon:</p>
