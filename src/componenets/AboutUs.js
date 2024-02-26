@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
         <img
           className="about-img"
-          src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src="https://scontent.farn2-2.fna.fbcdn.net/v/t39.30808-6/277552750_388941406568030_2579283744716474754_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=783fdb&_nc_ohc=O5YtLtkdAEgAX9j09dd&_nc_ht=scontent.farn2-2.fna&cb_e2o_trans=t&oh=00_AfCY17S4iNvD5i2c_u4vjWA4wMNgzhwdiBWakXFMS1foTQ&oe=65E24B00"
           alt=""
         />
       </div>

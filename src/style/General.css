@@ -19,3 +19,19 @@
   min-width: 100%;
   max-width: 100%;
 }
+.gallery-img{
+  min-width: 33%;
+  max-width: 33%;
+}
+@media(max-width: 1023px) {
+  .gallery-img{
+    min-width: 50%;
+    max-width: 50%;
+  }
+}
+@media(max-width: 650px) {
+  .gallery-img{
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

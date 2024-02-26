@@ -52,4 +52,40 @@ export const MenuPermanentData = [
     dish2: "",
     price: "120",
   },
+  {
+    day: "Kebab tallrik",
+    dish1: "inkluderar pommes och dryck",
+    dish2: "",
+    price: "???",
+  },
+  {
+    day: "Chicken nuggets",
+    dish1: "inkluderar pommes och dryck",
+    dish2: "",
+    price: "???",
+  },
+  {
+    day: "Panerad spätta",
+    dish1: "inkluderar dryck",
+    dish2: "",
+    price: "???",
+  },
+  {
+    day: "Grillbiff",
+    dish1: "inkluderar pommes och dryck",
+    dish2: "",
+    price: "???",
+  },
+  {
+    day: "Schnitzel",
+    dish1: "inkluderar pommes och dryck",
+    dish2: "",
+    price: "???",
+  },
+  {
+    day: "Köttbullar",
+    dish1: "inkluderar pommes och dryck",
+    dish2: "",
+    price: "???",
+  },
 ];
