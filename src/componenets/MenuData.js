@@ -41,16 +41,22 @@ export const MenuDailyData = [
 
 export const MenuPermanentData = [
   {
-    day: "Hamburgare meny 100g",
+    day: "Hamburgare meny 90g",
     dish1: "inkluderar pommes och dryck ",
     dish2: "",
-    price: "100",
+    price: "85",
   },
   {
     day: "Hamburgare meny 150g",
     dish1: "inkluderar pommes och dryck",
     dish2: "",
-    price: "120",
+    price: "105",
+  },
+  {
+    day: "Hamburgare meny 200g",
+    dish1: "inkluderar pommes och dryck",
+    dish2: "",
+    price: "115",
   },
   {
     day: "Kebab tallrik",
