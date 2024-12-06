@@ -42,7 +42,7 @@ const Home = () => {
           ett utbud av snabbmat.
         </p>
       </div>
-      <div className="post justify-center">
+      {/* <div className="post justify-center">
         <span className="post-title font-strong text-2xl">
           Sensate Inlägget
         </span>
@@ -60,18 +60,21 @@ const Home = () => {
             <p>Må 2024 vara lika grym som förra året!</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="square text-center mt-20">
         <p className="text-3xl mb-9 font-strong text-decoration-line: underline txt-darkgray">
           Öppettider
         </p>
         <p className="mb-3">
           <span className="font-bold"> Måndag-Fredag:</span>
-          <span> 11:00-19:00</span>
+          <span> 10:00-19:00</span>
         </p>
         <p className="mb-3">
-          <span className="font-bold ml-8"> Lördag:</span>
-          <span> Stängt</span>
+          <span className="font-bold ml-8" style={{ paddingLeft: 37 }}>
+            {" "}
+            Lördag:
+          </span>
+          <span> 11:00-16:00</span>
         </p>
         <p className="mb-3">
           <span className="font-bold ml-8"> Söndag:</span>
