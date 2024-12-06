@@ -39,11 +39,12 @@ const AboutUs = () => {
       </div>
       <div className="text-center">
         <p className="text-m mb-32 mt-auto about-desc">
-          I Skurup är gemenskap en viktig faktor som håller igång och livar upp
-          vardagen. Därför föredrar vi att använda oss av så mycket råvaror från
-          vår närhet som möjligt. På Skurup Restaurang & Grill serveras det två
-          nya klassiska husmansrätter dagligen tillsammans med ett utbud av
-          snabbmat.
+          Välkommen till Skurup Restaurang & Grill! I hjärtat av Skurup hittar
+          du vår restaurang, där gemenskap står i centrum. Vi brinner för att
+          erbjuda dig prisvärda rätter tillagade med omsorg och närtillverkade
+          råvaror av högsta kvalitet. Här möts smaker, hållbarhet och trivsel
+          för att skapa en plats där alla känner sig som hemma. Kom och upplev
+          det själv – vi ser fram emot att välkomna dig!
         </p>
         <p className="text-4xl font-handwritten">Följ oss på</p>
         <button
